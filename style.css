@@ -89,80 +89,63 @@ h1 {
   box-shadow: inset 5px 5px 8px #f53b3b, inset -5px -5px 8px #f54141;
 }
 
-@media only screen and (max-height: 920px) and (min-height: 870px) {
+@media (max-width: 450px), (max-height: 920px) {
   .container {
-    padding: 17px;
+    transform: scale(0.9);
   }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
   .row button {
-    height: 25.5px; /* 15% smaller */
+    width: 54px;
+    height: 27px;
+    font-size: 14.4px;
   }
+  
   .display #screen {
-    height: 59.5px; /* 15% smaller */
-    font-size: 29.75px;
+    height: 63px;
+    font-size: 31.5px;
   }
 }
 
-@media only screen and (max-height: 870px) and (min-height: 820px) {
+@media (max-width: 420px) {
   .container {
-    padding: 14.45px; /* 15% smaller */
+    transform: scale(0.81);
   }
-  .row button {
-    height: 21.68px; /* 15% smaller */
-  }
-  .display #screen {
-    height: 50.57px; /* 15% smaller */
-    font-size: 25.28px; /* 15% smaller */
+  
+  h1 {
+    font-size: 32.4px;
   }
 }
 
-@media only screen and (max-height: 820px) and (min-height: 770px) {
+@media (max-width: 390px) {
   .container {
-    padding: 12.28px; /* 15% smaller */
+    transform: scale(0.729);
   }
-  .row button {
-    height: 18.42px; /* 15% smaller */
-  }
-  .display #screen {
-    height: 43px; /* 15% smaller */
-    font-size: 21.49px; /* 15% smaller */
+  
+  h1 {
+    font-size: 29.16px;
   }
 }
 
-@media only screen and (max-height: 770px) and (min-height: 720px) {
+@media (max-width: 360px) {
   .container {
-    padding: 10.44px; /* 15% smaller */
+    transform: scale(0.6561);
   }
-  .row button {
-    height: 15.66px; /* 15% smaller */
-  }
-  .display #screen {
-    height: 36.55px; /* 15% smaller */
-    font-size: 18.26px; /* 15% smaller */
+  
+  h1 {
+    font-size: 26.244px;
   }
 }
 
-/* Media query for screens with height between 670px and 720px */
-@media only screen and (max-height: 720px) and (min-height: 670px) {
+@media (max-width: 330px) {
   .container {
-    padding: 8.87px; /* 15% smaller */
+    transform: scale(0.59049);
   }
-  .row button {
-    height: 13.31px; /* 15% smaller */
-  }
-  .display #screen {
-    height: 31.07px; /* 15% smaller */
-    font-size: 15.52px; /* 15% smaller */
-  }
-}
-@media only screen and (max-height: 670px) {
-  .container {
-    padding: 7.54px; /* 15% smaller */
-  }
-  .row button {
-    height: 11.31px; /* 15% smaller */
-  }
-  .display #screen {
-    height: 26.41px; /* 15% smaller */
-    font-size: 13.19px; /* 15% smaller */
+  
+  h1 {
+    font-size: 23.6196px;
   }
 }
